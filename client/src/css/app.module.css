@@ -117,6 +117,16 @@
   margin-bottom: 100px;
 }
 
+@media screen and (max-width: 750px) {
+  .mobileFlex {
+    display: block !important;
+  }
+
+  .mobileFlex > div {
+    margin-bottom: 20px;
+  }
+}
+
 /*notes*/
 .notes {
   margin-top: 100px !important;

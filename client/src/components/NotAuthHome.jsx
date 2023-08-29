@@ -25,37 +25,40 @@ const NotAuthHome = (props) => {
           Capture Brilliance, One Note at a Time.
         </p>
       </article>
-      <article className="row">
-        <div className={`col-md-6 mb-3 h-100 ${style.card}`}>
-          <h3>A New Way to Take Notes</h3>
-          <p>
-            Discover a new level of <b>efficiency</b> through our seamless web
-            app's array of features. Empower your <b>productivity</b> with our
-            innovative web app designed to effortlessly organize your{" "}
-            <b>thoughts</b> and ideas.
-          </p>
+      <article>
+        <div
+          className={`d-flex justify-content-between gap-3 mb-3 ${style.mobileFlex}`}
+        >
+          <div className={` ${style.card}`}>
+            <h3>A New Way to Take Notes</h3>
+            <p>
+              Discover a new level of <b>efficiency</b> through our seamless web
+              app's array of features. Empower your <b>productivity</b> with our
+              innovative web app designed to effortlessly organize your{" "}
+              <b>thoughts</b> and ideas.
+            </p>
 
-          <img
-            src="https://assets.website-files.com/5bff8886c3964a992e90d465/5c006187d9549d3368158d3d_mixes.gif"
-            alt="huumans"
-            width={"100%"}
-            height={"auto"}
-          />
-        </div>
-        <div className="col-md-1"></div>
-        <div className={`col-md-5 mb-3 ${style.card}`}>
-          <motion.img
-            src="https://uploads-ssl.webflow.com/62e13f095b5c9d5f50d0eff2/62e230d85b3d5b641d7b163d_Humaaans%20-%203%20Characters%20(5)%201.svg"
-            alt="huumans"
-            height={"auto"}
-            width={"100%"}
-            style={{ scale }}
-          />
-          <p>
-            Seamlessly <b>take notes</b>, create <b>lists</b>, and unlock your
-            creativity with ease. Elevate your note-taking <b>experience</b> and
-            embark on a journey of enhanced efficiency and organization.
-          </p>
+            <img
+              src="https://assets.website-files.com/5bff8886c3964a992e90d465/5c006187d9549d3368158d3d_mixes.gif"
+              alt="huumans"
+              width={"100%"}
+              height={"auto"}
+            />
+          </div>
+          <div className={`${style.card}`}>
+            <motion.img
+              src="https://uploads-ssl.webflow.com/62e13f095b5c9d5f50d0eff2/62e230d85b3d5b641d7b163d_Humaaans%20-%203%20Characters%20(5)%201.svg"
+              alt="huumans"
+              height={"auto"}
+              width={"100%"}
+              style={{ scale }}
+            />
+            <p>
+              Seamlessly <b>take notes</b>, create <b>lists</b>, and unlock your
+              creativity with ease. Elevate your note-taking <b>experience</b>{" "}
+              and embark on a journey of enhanced efficiency and organization.
+            </p>
+          </div>
         </div>
 
         <div className={style.card}>
